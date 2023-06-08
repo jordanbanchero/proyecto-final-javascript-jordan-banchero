@@ -1,0 +1,49 @@
+.bootstrapOverwrites {
+    .navbar {
+        background-color: $verde !important;
+        padding: 0rem 1rem .5rem 1rem;
+        a.navbar-brand {
+            svg {
+                width: 220px ;
+            }
+            color:#fff;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-top: 1rem;
+        }
+        form {
+            margin-right: 1.6rem;
+        }
+        .nav-item {
+            position: relative;
+            
+            img {
+                cursor: pointer;
+                width: 3rem;
+            }
+            span {
+                transition: all .5s ease-in-out;
+                &.show {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 2rem;
+                    width: 2rem;
+                    background-color: green;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: .8rem;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    font-weight: bold   ;
+                }
+            }
+            
+            
+        }
+    }
+}
+    
